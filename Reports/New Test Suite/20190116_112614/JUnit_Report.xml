@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="0" tests="0" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="0" failures="0" errors="0" time="0" timestamp="2019-01-16 11:26:16" hostname="curso2 - curso2-PC" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\curso2\\Katalon Studio\\Test Web\\Reports\\New Test Suite\\20190116_112614"/>
+         <property name="logFiles" value="C:\\Users\\curso2\\Katalon Studio\\Test Web\\Reports\\New Test Suite\\20190116_112614\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="curso2 - curso2-PC"/>
+         <property name="hostAddress" value="192.168.43.120"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+      </properties>
+      <system-out><![CDATA[2019-01-16 11:26:16 - [TEST_SUITE][PASSED] - New Test Suite: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

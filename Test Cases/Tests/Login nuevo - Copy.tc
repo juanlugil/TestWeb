@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login nuevo - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>afc3fa2d-5598-44db-9619-d58dcaf8a03a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f74e3bb4-60d5-4ee6-9f47-72108dcd8383</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>'ssass'</defaultValue>
+      <description></description>
+      <id>a9ac252b-1af7-4347-9aad-695417a47687</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+</TestCaseEntity>

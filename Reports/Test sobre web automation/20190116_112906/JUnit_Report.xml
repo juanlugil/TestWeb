@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test sobre web automation" time="6" tests="1" failures="0" errors="0">
+   <testsuite name="Test sobre web automation" tests="1" failures="0" errors="0" time="6" timestamp="2019-01-16 11:29:09" hostname="curso2 - curso2-PC" id="Test Suites/Test sobre web automation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\curso2\\Katalon Studio\\Test Web\\Reports\\Test sobre web automation\\20190116_112906"/>
+         <property name="logFiles" value="C:\\Users\\curso2\\Katalon Studio\\Test Web\\Reports\\Test sobre web automation\\20190116_112906\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="curso2 - curso2-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.43.120"/>
+         <property name="sessionId" value="1f9254a07a416a7b822aecf6a808a111"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Tests/Login nuevo - Copy" classname="Test Cases/Tests/Login nuevo - Copy" status="PASSED">
+         <system-out><![CDATA[2019-01-16 11:29:09 - [TEST_CASE][PASSED] - Test Cases/Tests/Login nuevo - Copy: Test Cases/Tests/Login nuevo - Copy
+
+2019-01-16 11:29:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-16 11:29:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-16 11:29:10 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-16 11:29:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-16 11:29:13 - [TEST_STEP][PASSED] - navigateToUrl("http://executeautomation.com/demosite/Login.html"): Navigate to 'http://executeautomation.com/demosite/Login.html' successfully
+
+2019-01-16 11:29:14 - [MESSAGE][PASSED] - Navigate to 'http://executeautomation.com/demosite/Login.html' successfully
+
+2019-01-16 11:29:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Execute Automation/input_Login_UserName"), "pepe"): Text 'pepe' is set on object 'Object Repository/Page_Execute Automation/input_Login_UserName'
+
+2019-01-16 11:29:14 - [MESSAGE][PASSED] - Text 'pepe' is set on object 'Object Repository/Page_Execute Automation/input_Login_UserName'
+
+2019-01-16 11:29:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Execute Automation/input_Login_Password"), "pepe"): Text 'pepe' is set on object 'Object Repository/Page_Execute Automation/input_Login_Password'
+
+2019-01-16 11:29:15 - [MESSAGE][PASSED] - Text 'pepe' is set on object 'Object Repository/Page_Execute Automation/input_Login_Password'
+
+2019-01-16 11:29:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Execute Automation/input_Login_Login")): Object: 'Object Repository/Page_Execute Automation/input_Login_Login' is clicked on
+
+2019-01-16 11:29:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Execute Automation/input_Login_Login' is clicked on
+
+2019-01-16 11:29:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-16 11:29:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-16 11:29:09 - [TEST_SUITE][PASSED] - Test sobre web automation: Test Cases/Tests/Login nuevo - Copy]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

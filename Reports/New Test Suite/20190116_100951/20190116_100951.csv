@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,,,2019-01-16 10:09:58,2019-01-16 10:09:59,"1,228s",FAILED
+,,,,,,
+Test Cases/Tests/Login,,Test de login web,2019-01-16 10:09:58,2019-01-16 10:09:59,"0,874s",FAILED
+"openBrowser("""")",,,2019-01-16 10:09:59,2019-01-16 10:09:59,"0,492s",FAILED

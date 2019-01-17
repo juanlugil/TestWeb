@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Chrome 71.0.3578.98,,2019-01-16 10:12:34,2019-01-16 10:12:52,"17,655s",PASSED
+,,,,,,
+Test Cases/Tests/Login,Chrome 71.0.3578.98,Test de login web,2019-01-16 10:12:34,2019-01-16 10:12:52,"17,349s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-16 10:12:35,2019-01-16 10:12:39,"3,927s",PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/index.php"")",Chrome 71.0.3578.98,,2019-01-16 10:12:39,2019-01-16 10:12:44,"5,348s",PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), ""admin"")",Chrome 71.0.3578.98,,2019-01-16 10:12:44,2019-01-16 10:12:44,"0,245s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_txtPassword""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 71.0.3578.98,,2019-01-16 10:12:44,2019-01-16 10:12:44,"0,152s",PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_Submit""))",Chrome 71.0.3578.98,,2019-01-16 10:12:44,2019-01-16 10:12:51,"6,795s",PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-16 10:12:51,2019-01-16 10:12:52,"0,614s",PASSED

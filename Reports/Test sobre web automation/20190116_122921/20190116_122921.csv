@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test sobre web automation,Chrome 71.0.3578.98,,2019-01-16 12:29:34,2019-01-16 12:30:05,"30,944s",ERROR
+,,,,,,
+Test Cases/Tests/Login nuevo - Copy,Chrome 71.0.3578.98,,2019-01-16 12:29:34,2019-01-16 12:29:50,"16,138s",ERROR
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-16 12:29:34,2019-01-16 12:29:38,"4,249s",PASSED
+"navigateToUrl(""http://executeautomation.com/demosite/Login.html"")",Chrome 71.0.3578.98,,2019-01-16 12:29:38,2019-01-16 12:29:50,"11,560s",PASSED
+"setText(findTestObject(""Object Repository/Page_Execute Automation/input_Login_UserName""), findTestData(""CSV creado a manija"").getValue(1, 1))",Chrome 71.0.3578.98,,2019-01-16 12:29:50,2019-01-16 12:29:50,"0,047s",ERROR
+,,,,,,
+Test Cases/Tests/Login nuevo - Copy,Chrome 71.0.3578.98,,2019-01-16 12:29:50,2019-01-16 12:29:54,"4,391s",ERROR
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-16 12:29:50,2019-01-16 12:29:53,"2,997s",PASSED
+"navigateToUrl(""http://executeautomation.com/demosite/Login.html"")",Chrome 71.0.3578.98,,2019-01-16 12:29:53,2019-01-16 12:29:54,"1,379s",PASSED
+"setText(findTestObject(""Object Repository/Page_Execute Automation/input_Login_UserName""), findTestData(""CSV creado a manija"").getValue(1, 1))",Chrome 71.0.3578.98,,2019-01-16 12:29:54,2019-01-16 12:29:54,"0,008s",ERROR
+,,,,,,
+Test Cases/Tests/Login nuevo - Copy,Chrome 71.0.3578.98,,2019-01-16 12:29:54,2019-01-16 12:29:59,"4,521s",ERROR
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-16 12:29:54,2019-01-16 12:29:57,"2,867s",PASSED
+"navigateToUrl(""http://executeautomation.com/demosite/Login.html"")",Chrome 71.0.3578.98,,2019-01-16 12:29:57,2019-01-16 12:29:59,"1,629s",PASSED
+"setText(findTestObject(""Object Repository/Page_Execute Automation/input_Login_UserName""), findTestData(""CSV creado a manija"").getValue(1, 1))",Chrome 71.0.3578.98,,2019-01-16 12:29:59,2019-01-16 12:29:59,"0,010s",ERROR
+,,,,,,
+Test Cases/Tests/Login nuevo - Copy,Chrome 71.0.3578.98,,2019-01-16 12:29:59,2019-01-16 12:30:04,"4,936s",ERROR
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-16 12:29:59,2019-01-16 12:30:02,"3,306s",PASSED
+"navigateToUrl(""http://executeautomation.com/demosite/Login.html"")",Chrome 71.0.3578.98,,2019-01-16 12:30:02,2019-01-16 12:30:04,"1,598s",PASSED
+"setText(findTestObject(""Object Repository/Page_Execute Automation/input_Login_UserName""), findTestData(""CSV creado a manija"").getValue(1, 1))",Chrome 71.0.3578.98,,2019-01-16 12:30:04,2019-01-16 12:30:04,"0,007s",ERROR

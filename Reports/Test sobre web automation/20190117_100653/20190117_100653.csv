@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test sobre web automation,Chrome 71.0.3578.98,,2019-01-17 10:07:00,2019-01-17 10:08:38,"1m - 38,268s",PASSED
+,,,,,,
+Test Cases/Tests/Login nuevo - Copy,Chrome 71.0.3578.98,,2019-01-17 10:07:00,2019-01-17 10:07:25,"25,134s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-17 10:07:00,2019-01-17 10:07:09,"8,694s",PASSED
+"navigateToUrl(""http://executeautomation.com/demosite/Login.html"")",Chrome 71.0.3578.98,,2019-01-17 10:07:09,2019-01-17 10:07:10,"1,514s",PASSED
+"for ([rowNum = 1, rowNum <= findTestData(""Datos importados/datos"").getRowNumbers(), (rowNum++)])",Chrome 71.0.3578.98,,2019-01-17 10:07:10,2019-01-17 10:07:23,"12,970s",PASSED
+"click(findTestObject(""Object Repository/Page_Execute Automation/input_Login_Login""))",Chrome 71.0.3578.98,,2019-01-17 10:07:23,2019-01-17 10:07:24,"0,566s",PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-17 10:07:24,2019-01-17 10:07:25,"0,997s",PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Checkpoint""), true)",Chrome 71.0.3578.98,,2019-01-17 10:07:25,2019-01-17 10:07:25,"0,062s",PASSED
+,,,,,,
+Test Cases/Tests/Login nuevo - Copy,Chrome 71.0.3578.98,,2019-01-17 10:07:25,2019-01-17 10:07:50,"24,787s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-17 10:07:25,2019-01-17 10:07:29,"3,952s",PASSED
+"navigateToUrl(""http://executeautomation.com/demosite/Login.html"")",Chrome 71.0.3578.98,,2019-01-17 10:07:29,2019-01-17 10:07:34,"5,211s",PASSED
+"for ([rowNum = 1, rowNum <= findTestData(""Datos importados/datos"").getRowNumbers(), (rowNum++)])",Chrome 71.0.3578.98,,2019-01-17 10:07:34,2019-01-17 10:07:47,"13,109s",PASSED
+"click(findTestObject(""Object Repository/Page_Execute Automation/input_Login_Login""))",Chrome 71.0.3578.98,,2019-01-17 10:07:47,2019-01-17 10:07:48,"0,789s",PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-17 10:07:48,2019-01-17 10:07:50,"1,586s",PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Checkpoint""), true)",Chrome 71.0.3578.98,,2019-01-17 10:07:50,2019-01-17 10:07:50,"0,137s",PASSED
+,,,,,,
+Test Cases/Tests/Login nuevo - Copy,Chrome 71.0.3578.98,,2019-01-17 10:07:50,2019-01-17 10:08:15,"25,193s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-17 10:07:50,2019-01-17 10:07:53,"3,393s",PASSED
+"navigateToUrl(""http://executeautomation.com/demosite/Login.html"")",Chrome 71.0.3578.98,,2019-01-17 10:07:53,2019-01-17 10:08:01,"7,673s",PASSED
+"for ([rowNum = 1, rowNum <= findTestData(""Datos importados/datos"").getRowNumbers(), (rowNum++)])",Chrome 71.0.3578.98,,2019-01-17 10:08:01,2019-01-17 10:08:14,"12,712s",PASSED
+"click(findTestObject(""Object Repository/Page_Execute Automation/input_Login_Login""))",Chrome 71.0.3578.98,,2019-01-17 10:08:14,2019-01-17 10:08:14,"0,624s",PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-17 10:08:14,2019-01-17 10:08:15,"0,766s",PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Checkpoint""), true)",Chrome 71.0.3578.98,,2019-01-17 10:08:15,2019-01-17 10:08:15,"0,007s",PASSED
+,,,,,,
+Test Cases/Tests/Login nuevo - Copy,Chrome 71.0.3578.98,,2019-01-17 10:08:15,2019-01-17 10:08:38,"22,901s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-17 10:08:15,2019-01-17 10:08:21,"5,669s",PASSED
+"navigateToUrl(""http://executeautomation.com/demosite/Login.html"")",Chrome 71.0.3578.98,,2019-01-17 10:08:21,2019-01-17 10:08:24,"3,341s",PASSED
+"for ([rowNum = 1, rowNum <= findTestData(""Datos importados/datos"").getRowNumbers(), (rowNum++)])",Chrome 71.0.3578.98,,2019-01-17 10:08:24,2019-01-17 10:08:37,"12,653s",PASSED
+"click(findTestObject(""Object Repository/Page_Execute Automation/input_Login_Login""))",Chrome 71.0.3578.98,,2019-01-17 10:08:37,2019-01-17 10:08:37,"0,632s",PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-17 10:08:37,2019-01-17 10:08:38,"0,579s",PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Checkpoint""), true)",Chrome 71.0.3578.98,,2019-01-17 10:08:38,2019-01-17 10:08:38,"0,014s",PASSED

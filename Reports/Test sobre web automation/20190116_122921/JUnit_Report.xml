@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test sobre web automation" time="30" tests="0" failures="0" errors="4">
+   <testsuite name="Test sobre web automation" tests="0" failures="0" errors="4" time="30" timestamp="2019-01-16 12:29:34" hostname="curso2 - curso2-PC" id="Test Suites/Test sobre web automation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\curso2\\Katalon Studio\\Test Web\\Reports\\Test sobre web automation\\20190116_122921"/>
+         <property name="logFiles" value="C:\\Users\\curso2\\Katalon Studio\\Test Web\\Reports\\Test sobre web automation\\20190116_122921\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="curso2 - curso2-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.43.120"/>
+         <property name="sessionId" value="167d14c84cf418335a6ec65cadd09140"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Tests/Login nuevo - Copy" classname="Test Cases/Tests/Login nuevo - Copy" status="ERROR">
+         <error type="ERROR" message="Test Cases/Tests/Login nuevo - Copy FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/CSV creado a manija' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/CSV creado a manija' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Login nuevo - Copy.run(Login nuevo - Copy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547638161384.run(TempTestSuite1547638161384.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-16 12:29:34 - [TEST_CASE][ERROR] - Test Cases/Tests/Login nuevo - Copy: Test Cases/Tests/Login nuevo - Copy FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/CSV creado a manija' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/CSV creado a manija' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Login nuevo - Copy.run(Login nuevo - Copy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547638161384.run(TempTestSuite1547638161384.groovy:36)
+
+
+2019-01-16 12:29:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-16 12:29:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-16 12:29:35 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-16 12:29:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-16 12:29:38 - [TEST_STEP][PASSED] - navigateToUrl("http://executeautomation.com/demosite/Login.html"): Navigate to 'http://executeautomation.com/demosite/Login.html' successfully
+
+2019-01-16 12:29:50 - [MESSAGE][PASSED] - Navigate to 'http://executeautomation.com/demosite/Login.html' successfully
+
+2019-01-16 12:29:50 - [TEST_STEP][ERROR] - setText(findTestObject("Object Repository/Page_Execute Automation/input_Login_UserName"), findTestData("CSV creado a manija").getValue(1, 1)): setText(findTestObject("Object Repository/Page_Execute Automation/input_Login_UserName"), findTestData("CSV creado a manija").getValue(1, 1)) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/CSV creado a manija' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/CSV creado a manija' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Login nuevo - Copy.run(Login nuevo - Copy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547638161384.run(TempTestSuite1547638161384.groovy:36)
+
+
+2019-01-16 12:29:50 - [MESSAGE][ERROR] - setText(findTestObject("Object Repository/Page_Execute Automation/input_Login_UserName"), findTestData("CSV creado a manija").getValue(1, 1)) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/CSV creado a manija' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/CSV creado a manija' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Login nuevo - Copy.run(Login nuevo - Copy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547638161384.run(TempTestSuite1547638161384.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-16 12:29:34 - [TEST_CASE][ERROR] - Test Cases/Tests/Login nuevo - Copy: Test Cases/Tests/Login nuevo - Copy FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/CSV creado a manija' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/CSV creado a manija' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Login nuevo - Copy.run(Login nuevo - Copy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547638161384.run(TempTestSuite1547638161384.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tests/Login nuevo - Copy" classname="Test Cases/Tests/Login nuevo - Copy" status="ERROR">
+         <error type="ERROR" message="Test Cases/Tests/Login nuevo - Copy FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/CSV creado a manija' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/CSV creado a manija' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Login nuevo - Copy.run(Login nuevo - Copy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547638161384.run(TempTestSuite1547638161384.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-16 12:29:50 - [TEST_CASE][ERROR] - Test Cases/Tests/Login nuevo - Copy: Test Cases/Tests/Login nuevo - Copy FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/CSV creado a manija' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/CSV creado a manija' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Login nuevo - Copy.run(Login nuevo - Copy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547638161384.run(TempTestSuite1547638161384.groovy:36)
+
+
+2019-01-16 12:29:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-16 12:29:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-16 12:29:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-16 12:29:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-16 12:29:53 - [TEST_STEP][PASSED] - navigateToUrl("http://executeautomation.com/demosite/Login.html"): Navigate to 'http://executeautomation.com/demosite/Login.html' successfully
+
+2019-01-16 12:29:54 - [MESSAGE][PASSED] - Navigate to 'http://executeautomation.com/demosite/Login.html' successfully
+
+2019-01-16 12:29:54 - [TEST_STEP][ERROR] - setText(findTestObject("Object Repository/Page_Execute Automation/input_Login_UserName"), findTestData("CSV creado a manija").getValue(1, 1)): setText(findTestObject("Object Repository/Page_Execute Automation/input_Login_UserName"), findTestData("CSV creado a manija").getValue(1, 1)) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/CSV creado a manija' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/CSV creado a manija' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Login nuevo - Copy.run(Login nuevo - Copy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547638161384.run(TempTestSuite1547638161384.groovy:36)
+
+
+2019-01-16 12:29:54 - [MESSAGE][ERROR] - setText(findTestObject("Object Repository/Page_Execute Automation/input_Login_UserName"), findTestData("CSV creado a manija").getValue(1, 1)) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/CSV creado a manija' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/CSV creado a manija' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Login nuevo - Copy.run(Login nuevo - Copy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547638161384.run(TempTestSuite1547638161384.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-16 12:29:50 - [TEST_CASE][ERROR] - Test Cases/Tests/Login nuevo - Copy: Test Cases/Tests/Login nuevo - Copy FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/CSV creado a manija' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/CSV creado a manija' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Login nuevo - Copy.run(Login nuevo - Copy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547638161384.run(TempTestSuite1547638161384.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tests/Login nuevo - Copy" classname="Test Cases/Tests/Login nuevo - Copy" status="ERROR">
+         <error type="ERROR" message="Test Cases/Tests/Login nuevo - Copy FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/CSV creado a manija' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/CSV creado a manija' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Login nuevo - Copy.run(Login nuevo - Copy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547638161384.run(TempTestSuite1547638161384.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-16 12:29:54 - [TEST_CASE][ERROR] - Test Cases/Tests/Login nuevo - Copy: Test Cases/Tests/Login nuevo - Copy FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/CSV creado a manija' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/CSV creado a manija' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Login nuevo - Copy.run(Login nuevo - Copy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547638161384.run(TempTestSuite1547638161384.groovy:36)
+
+
+2019-01-16 12:29:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-16 12:29:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-16 12:29:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-16 12:29:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-16 12:29:57 - [TEST_STEP][PASSED] - navigateToUrl("http://executeautomation.com/demosite/Login.html"): Navigate to 'http://executeautomation.com/demosite/Login.html' successfully
+
+2019-01-16 12:29:59 - [MESSAGE][PASSED] - Navigate to 'http://executeautomation.com/demosite/Login.html' successfully
+
+2019-01-16 12:29:59 - [TEST_STEP][ERROR] - setText(findTestObject("Object Repository/Page_Execute Automation/input_Login_UserName"), findTestData("CSV creado a manija").getValue(1, 1)): setText(findTestObject("Object Repository/Page_Execute Automation/input_Login_UserName"), findTestData("CSV creado a manija").getValue(1, 1)) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/CSV creado a manija' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/CSV creado a manija' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Login nuevo - Copy.run(Login nuevo - Copy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547638161384.run(TempTestSuite1547638161384.groovy:36)
+
+
+2019-01-16 12:29:59 - [MESSAGE][ERROR] - setText(findTestObject("Object Repository/Page_Execute Automation/input_Login_UserName"), findTestData("CSV creado a manija").getValue(1, 1)) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/CSV creado a manija' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/CSV creado a manija' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Login nuevo - Copy.run(Login nuevo - Copy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547638161384.run(TempTestSuite1547638161384.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-16 12:29:54 - [TEST_CASE][ERROR] - Test Cases/Tests/Login nuevo - Copy: Test Cases/Tests/Login nuevo - Copy FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/CSV creado a manija' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/CSV creado a manija' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Login nuevo - Copy.run(Login nuevo - Copy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547638161384.run(TempTestSuite1547638161384.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tests/Login nuevo - Copy" classname="Test Cases/Tests/Login nuevo - Copy" status="ERROR">
+         <error type="ERROR" message="Test Cases/Tests/Login nuevo - Copy FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/CSV creado a manija' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/CSV creado a manija' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Login nuevo - Copy.run(Login nuevo - Copy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547638161384.run(TempTestSuite1547638161384.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-16 12:29:59 - [TEST_CASE][ERROR] - Test Cases/Tests/Login nuevo - Copy: Test Cases/Tests/Login nuevo - Copy FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/CSV creado a manija' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/CSV creado a manija' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Login nuevo - Copy.run(Login nuevo - Copy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547638161384.run(TempTestSuite1547638161384.groovy:36)
+
+
+2019-01-16 12:29:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-16 12:29:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-16 12:30:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-16 12:30:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-16 12:30:02 - [TEST_STEP][PASSED] - navigateToUrl("http://executeautomation.com/demosite/Login.html"): Navigate to 'http://executeautomation.com/demosite/Login.html' successfully
+
+2019-01-16 12:30:04 - [MESSAGE][PASSED] - Navigate to 'http://executeautomation.com/demosite/Login.html' successfully
+
+2019-01-16 12:30:04 - [TEST_STEP][ERROR] - setText(findTestObject("Object Repository/Page_Execute Automation/input_Login_UserName"), findTestData("CSV creado a manija").getValue(1, 1)): setText(findTestObject("Object Repository/Page_Execute Automation/input_Login_UserName"), findTestData("CSV creado a manija").getValue(1, 1)) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/CSV creado a manija' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/CSV creado a manija' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Login nuevo - Copy.run(Login nuevo - Copy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547638161384.run(TempTestSuite1547638161384.groovy:36)
+
+
+2019-01-16 12:30:04 - [MESSAGE][ERROR] - setText(findTestObject("Object Repository/Page_Execute Automation/input_Login_UserName"), findTestData("CSV creado a manija").getValue(1, 1)) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/CSV creado a manija' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/CSV creado a manija' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Login nuevo - Copy.run(Login nuevo - Copy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547638161384.run(TempTestSuite1547638161384.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-16 12:29:59 - [TEST_CASE][ERROR] - Test Cases/Tests/Login nuevo - Copy: Test Cases/Tests/Login nuevo - Copy FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/CSV creado a manija' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/CSV creado a manija' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Login nuevo - Copy.run(Login nuevo - Copy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547638161384.run(TempTestSuite1547638161384.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-16 12:29:34 - [TEST_SUITE][ERROR] - Test sobre web automation: Test Cases/Tests/Login nuevo - Copy FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/CSV creado a manija' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/CSV creado a manija' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Login nuevo - Copy.run(Login nuevo - Copy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547638161384.run(TempTestSuite1547638161384.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-16 12:29:34 - [TEST_SUITE][ERROR] - Test sobre web automation: Test Cases/Tests/Login nuevo - Copy FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/CSV creado a manija' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/CSV creado a manija' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Login nuevo - Copy.run(Login nuevo - Copy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547638161384.run(TempTestSuite1547638161384.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

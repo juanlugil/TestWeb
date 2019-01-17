@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test sobre web automation,Chrome 71.0.3578.98,,2019-01-16 12:21:55,2019-01-16 12:22:20,"25,220s",PASSED
+,,,,,,
+Test Cases/Tests/Login nuevo - Copy,Chrome 71.0.3578.98,,2019-01-16 12:21:55,2019-01-16 12:22:03,"7,951s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-16 12:21:56,2019-01-16 12:21:59,"3,727s",PASSED
+"navigateToUrl(""http://executeautomation.com/demosite/Login.html"")",Chrome 71.0.3578.98,,2019-01-16 12:21:59,2019-01-16 12:22:02,"2,348s",PASSED
+"setText(findTestObject(""Object Repository/Page_Execute Automation/input_Login_UserName""), user)",Chrome 71.0.3578.98,,2019-01-16 12:22:02,2019-01-16 12:22:02,"0,150s",PASSED
+"setText(findTestObject(""Object Repository/Page_Execute Automation/input_Login_Password""), pass)",Chrome 71.0.3578.98,,2019-01-16 12:22:02,2019-01-16 12:22:02,"0,096s",PASSED
+"click(findTestObject(""Object Repository/Page_Execute Automation/input_Login_Login""))",Chrome 71.0.3578.98,,2019-01-16 12:22:02,2019-01-16 12:22:02,"0,595s",PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-16 12:22:02,2019-01-16 12:22:03,"0,670s",PASSED
+,,,,,,
+Test Cases/Tests/Login nuevo - Copy,Chrome 71.0.3578.98,,2019-01-16 12:22:03,2019-01-16 12:22:09,"6,065s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-16 12:22:03,2019-01-16 12:22:06,"2,729s",PASSED
+"navigateToUrl(""http://executeautomation.com/demosite/Login.html"")",Chrome 71.0.3578.98,,2019-01-16 12:22:06,2019-01-16 12:22:08,"1,946s",PASSED
+"setText(findTestObject(""Object Repository/Page_Execute Automation/input_Login_UserName""), user)",Chrome 71.0.3578.98,,2019-01-16 12:22:08,2019-01-16 12:22:08,"0,110s",PASSED
+"setText(findTestObject(""Object Repository/Page_Execute Automation/input_Login_Password""), pass)",Chrome 71.0.3578.98,,2019-01-16 12:22:08,2019-01-16 12:22:08,"0,094s",PASSED
+"click(findTestObject(""Object Repository/Page_Execute Automation/input_Login_Login""))",Chrome 71.0.3578.98,,2019-01-16 12:22:08,2019-01-16 12:22:09,"0,544s",PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-16 12:22:09,2019-01-16 12:22:09,"0,608s",PASSED
+,,,,,,
+Test Cases/Tests/Login nuevo - Copy,Chrome 71.0.3578.98,,2019-01-16 12:22:09,2019-01-16 12:22:15,"5,394s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-16 12:22:09,2019-01-16 12:22:12,"2,823s",PASSED
+"navigateToUrl(""http://executeautomation.com/demosite/Login.html"")",Chrome 71.0.3578.98,,2019-01-16 12:22:12,2019-01-16 12:22:13,"1,140s",PASSED
+"setText(findTestObject(""Object Repository/Page_Execute Automation/input_Login_UserName""), user)",Chrome 71.0.3578.98,,2019-01-16 12:22:13,2019-01-16 12:22:13,"0,168s",PASSED
+"setText(findTestObject(""Object Repository/Page_Execute Automation/input_Login_Password""), pass)",Chrome 71.0.3578.98,,2019-01-16 12:22:13,2019-01-16 12:22:13,"0,086s",PASSED
+"click(findTestObject(""Object Repository/Page_Execute Automation/input_Login_Login""))",Chrome 71.0.3578.98,,2019-01-16 12:22:13,2019-01-16 12:22:14,"0,546s",PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-16 12:22:14,2019-01-16 12:22:15,"0,611s",PASSED
+,,,,,,
+Test Cases/Tests/Login nuevo - Copy,Chrome 71.0.3578.98,,2019-01-16 12:22:15,2019-01-16 12:22:20,"5,509s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-16 12:22:15,2019-01-16 12:22:17,"2,657s",PASSED
+"navigateToUrl(""http://executeautomation.com/demosite/Login.html"")",Chrome 71.0.3578.98,,2019-01-16 12:22:17,2019-01-16 12:22:19,"1,424s",PASSED
+"setText(findTestObject(""Object Repository/Page_Execute Automation/input_Login_UserName""), user)",Chrome 71.0.3578.98,,2019-01-16 12:22:19,2019-01-16 12:22:19,"0,169s",PASSED
+"setText(findTestObject(""Object Repository/Page_Execute Automation/input_Login_Password""), pass)",Chrome 71.0.3578.98,,2019-01-16 12:22:19,2019-01-16 12:22:19,"0,105s",PASSED
+"click(findTestObject(""Object Repository/Page_Execute Automation/input_Login_Login""))",Chrome 71.0.3578.98,,2019-01-16 12:22:19,2019-01-16 12:22:20,"0,513s",PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-16 12:22:20,2019-01-16 12:22:20,"0,621s",PASSED

@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test sobre web automation,Chrome 71.0.3578.98,,2019-01-16 12:41:53,2019-01-16 12:42:25,"32,034s",ERROR
+,,,,,,
+Test Cases/Tests/Login nuevo - Copy,Chrome 71.0.3578.98,,2019-01-16 12:41:53,2019-01-16 12:42:03,"9,373s",ERROR
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-16 12:41:53,2019-01-16 12:41:58,"4,575s",PASSED
+"navigateToUrl(""http://executeautomation.com/demosite/Login.html"")",Chrome 71.0.3578.98,,2019-01-16 12:41:58,2019-01-16 12:42:02,"4,493s",PASSED
+"setText(findTestObject(""Object Repository/Page_Execute Automation/input_Login_UserName""), findTestData(""datos"").getValue(1, 1))",Chrome 71.0.3578.98,,2019-01-16 12:42:02,2019-01-16 12:42:03,"0,044s",ERROR
+,,,,,,
+Test Cases/Tests/Login nuevo - Copy,Chrome 71.0.3578.98,,2019-01-16 12:42:03,2019-01-16 12:42:09,"6,410s",ERROR
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-16 12:42:03,2019-01-16 12:42:06,"3,797s",PASSED
+"navigateToUrl(""http://executeautomation.com/demosite/Login.html"")",Chrome 71.0.3578.98,,2019-01-16 12:42:06,2019-01-16 12:42:09,"2,586s",PASSED
+"setText(findTestObject(""Object Repository/Page_Execute Automation/input_Login_UserName""), findTestData(""datos"").getValue(1, 1))",Chrome 71.0.3578.98,,2019-01-16 12:42:09,2019-01-16 12:42:09,"0,010s",ERROR
+,,,,,,
+Test Cases/Tests/Login nuevo - Copy,Chrome 71.0.3578.98,,2019-01-16 12:42:09,2019-01-16 12:42:15,"5,909s",ERROR
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-16 12:42:09,2019-01-16 12:42:12,"3,312s",PASSED
+"navigateToUrl(""http://executeautomation.com/demosite/Login.html"")",Chrome 71.0.3578.98,,2019-01-16 12:42:12,2019-01-16 12:42:15,"2,581s",PASSED
+"setText(findTestObject(""Object Repository/Page_Execute Automation/input_Login_UserName""), findTestData(""datos"").getValue(1, 1))",Chrome 71.0.3578.98,,2019-01-16 12:42:15,2019-01-16 12:42:15,"0,005s",ERROR
+,,,,,,
+Test Cases/Tests/Login nuevo - Copy,Chrome 71.0.3578.98,,2019-01-16 12:42:15,2019-01-16 12:42:24,"9,253s",ERROR
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-16 12:42:15,2019-01-16 12:42:20,"5,340s",PASSED
+"navigateToUrl(""http://executeautomation.com/demosite/Login.html"")",Chrome 71.0.3578.98,,2019-01-16 12:42:20,2019-01-16 12:42:24,"3,870s",PASSED
+"setText(findTestObject(""Object Repository/Page_Execute Automation/input_Login_UserName""), findTestData(""datos"").getValue(1, 1))",Chrome 71.0.3578.98,,2019-01-16 12:42:24,2019-01-16 12:42:24,"0,030s",ERROR

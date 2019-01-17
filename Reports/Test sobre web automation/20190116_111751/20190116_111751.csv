@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test sobre web automation,Chrome 71.0.3578.98,,2019-01-16 11:17:56,2019-01-16 11:18:03,"6,863s",PASSED
+,,,,,,
+Test Cases/Tests/Login nuevo - Copy,Chrome 71.0.3578.98,,2019-01-16 11:17:56,2019-01-16 11:18:03,"6,575s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-16 11:17:57,2019-01-16 11:18:00,"3,292s",PASSED
+"navigateToUrl(""http://executeautomation.com/demosite/Login.html"")",Chrome 71.0.3578.98,,2019-01-16 11:18:00,2019-01-16 11:18:02,"1,568s",PASSED
+"setText(findTestObject(""Object Repository/Page_Execute Automation/input_Login_UserName""), ""pepe"")",Chrome 71.0.3578.98,,2019-01-16 11:18:02,2019-01-16 11:18:02,"0,161s",PASSED
+"setText(findTestObject(""Object Repository/Page_Execute Automation/input_Login_Password""), ""pepe"")",Chrome 71.0.3578.98,,2019-01-16 11:18:02,2019-01-16 11:18:02,"0,089s",PASSED
+"click(findTestObject(""Object Repository/Page_Execute Automation/input_Login_Login""))",Chrome 71.0.3578.98,,2019-01-16 11:18:02,2019-01-16 11:18:02,"0,528s",PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-16 11:18:02,2019-01-16 11:18:03,"0,636s",PASSED
